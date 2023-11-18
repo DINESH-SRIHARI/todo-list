@@ -1,0 +1,67 @@
+
+
+.val{
+    text-align: center;
+    width: 450px;
+    background-color: aquamarine;
+    margin: 50px auto;
+    border-radius: 12px;
+    
+}
+.inp{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+#ent{
+    border: none;
+    padding: 12px;
+    border-radius: 12px 0px 0px 12px;
+    width :200px;
+    height: px;
+    outline: none;
+    background-color: #183D3D;
+    margin-bottom: 50px;
+}
+#bttn{
+    width: 50px;
+    height: 39px;
+    background-color: purple;
+    border: none;
+    border-radius: 0px 12px 12px 0px;
+    font-weight: 400;
+}
+#bttn:hover{
+    background-color: rgb(201, 23, 201);
+}
+/* #ent:focus{
+    border: 2px solid rebeccapurple
+} */
+.temp{
+    display: flex;
+    margin-left: 5px;
+    
+    
+}
+.fa-solid{
+    margin-right: 12px;
+    margin-top: 18px;
+    margin-left: 12px;
+}
+.mak:checked+p{
+    text-decoration: line-through;
+}
+.hide{
+    display: none;
+}
+#btt{
+    background-color: black;
+    border: none;
+    padding: 4px;
+    color: aquamarine;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+#btt:hover{
+    padding: 8px;
+}
