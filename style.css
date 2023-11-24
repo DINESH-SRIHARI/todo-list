@@ -1,12 +1,13 @@
-
-
+body{
+    background-color: rgb(46, 44, 44);
+}
 .val{
     text-align: center;
-    width: 450px;
+        width: 400px;
     background-color: aquamarine;
     margin: 50px auto;
     border-radius: 12px;
-    
+    padding: 30px;
 }
 .inp{
     display: flex;
@@ -34,20 +35,13 @@
 #bttn:hover{
     background-color: rgb(201, 23, 201);
 }
-/* #ent:focus{
-    border: 2px solid rebeccapurple
-} */
 .temp{
     display: flex;
     margin-left: 5px;
     
     
 }
-.fa-solid{
-    margin-right: 12px;
-    margin-top: 18px;
-    margin-left: 12px;
-}
+
 .mak:checked+p{
     text-decoration: line-through;
 }
